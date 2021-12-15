@@ -7,8 +7,9 @@
 import pytest
 import allure
 
-@allure.feature("test1")
+@allure.feature("test_pytest")
 class TestDemo:
+    @allure.story("test1")
     @pytest.fixture(scope='class', autouse=True)
     def test_one(self):
         print('do test1')
