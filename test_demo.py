@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2021/12/14 15:55
-# @Author  : Tom
-# @Email   : 850156124@qq.com
-# @File    : test_demo.py
-# @Software: PyCharm
+#/root/python3 python3
 import pytest
 import allure
 
